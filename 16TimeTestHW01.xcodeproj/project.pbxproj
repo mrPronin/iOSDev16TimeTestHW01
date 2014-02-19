@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EAFA96718B38FF300BDE134 /* RITStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAFA96618B38FF300BDE134 /* RITStudent.m */; };
 		A2CC11F818B2969E006EF1DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2CC11F718B2969D006EF1DB /* Foundation.framework */; };
 		A2CC11FA18B2969E006EF1DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2CC11F918B2969E006EF1DB /* CoreGraphics.framework */; };
 		A2CC11FC18B2969E006EF1DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2CC11FB18B2969E006EF1DB /* UIKit.framework */; };
@@ -32,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3EAFA96518B38FF300BDE134 /* RITStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITStudent.h; sourceTree = "<group>"; };
+		3EAFA96618B38FF300BDE134 /* RITStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITStudent.m; sourceTree = "<group>"; };
 		A2CC11F418B2969D006EF1DB /* 16TimeTestHW01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 16TimeTestHW01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2CC11F718B2969D006EF1DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A2CC11F918B2969E006EF1DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -107,6 +110,8 @@
 		A2CC11FD18B2969E006EF1DB /* 16TimeTestHW01 */ = {
 			isa = PBXGroup;
 			children = (
+				3EAFA96518B38FF300BDE134 /* RITStudent.h */,
+				3EAFA96618B38FF300BDE134 /* RITStudent.m */,
 				A2CC120618B2969E006EF1DB /* RITAppDelegate.h */,
 				A2CC120718B2969E006EF1DB /* RITAppDelegate.m */,
 				A2CC120918B2969E006EF1DB /* Images.xcassets */,
@@ -241,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2CC120818B2969E006EF1DB /* RITAppDelegate.m in Sources */,
+				3EAFA96718B38FF300BDE134 /* RITStudent.m in Sources */,
 				A2CC120418B2969E006EF1DB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,6 +448,7 @@
 				A2CC122218B2969E006EF1DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2CC122318B2969E006EF1DB /* Build configuration list for PBXNativeTarget "16TimeTestHW01Tests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +457,7 @@
 				A2CC122518B2969E006EF1DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
